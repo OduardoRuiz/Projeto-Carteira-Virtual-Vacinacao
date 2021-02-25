@@ -1,0 +1,193 @@
+
+ body{
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    background-color: rgb(230, 230, 245);
+
+}
+
+/* cabeçalho do site */
+
+header{
+    width: 100%;
+    height:auto;
+    background-color: rgb(1, 125, 197);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    color: rgb(255, 255, 255); 
+}
+header a:link{
+    text-decoration: none;
+}
+header a{
+    color: rgb(255, 255, 255);
+}
+#menu1 nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-inline-start: 1em;
+    margin: 0;
+} 
+#menu1 nav ul li {
+    margin-top: 1.2em;
+    margin-left: 1em;
+    font-size: 1.3em;
+}   
+#menu2 nav ul {
+    display: flex;
+    list-style: none;
+} 
+#menu2 nav ul li {
+    margin-right: 1em;
+    font-size: 1.3em;
+}   
+#menu1 img{
+    width: 5em;
+}
+
+/* rodape do site */
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(1, 125, 197);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    color: rgb(255, 255, 255); 
+  
+}
+footer img{
+    width: 5em;
+}
+footer #vacinao{
+    width: 3em;
+}
+
+/* pagina sobre do site */
+
+#sobre{
+    width: 100%;
+    background-color: rgb(230, 230, 245);
+}
+#sobre h2{
+    text-align: center;
+}
+#sobre #tudo{
+    display: flex;
+    justify-content: space-between;
+}
+#sobre img{
+    width: 15em;
+}
+#sobre p{
+    font-size: 1.3em;
+    text-align: center;
+    margin-right: 2em;    
+}
+
+/* pagina login do site */
+#login {
+    padding-top:1em ;
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+#login div{
+    margin-top: 1em;
+}
+    
+
+/* pagina home/index do site */
+
+#home #baner{
+   display: flex;
+   justify-content: center;
+   margin-top: 1em;
+}
+#home #baner img{
+    width: 45em;
+    border-radius: 5%;
+}
+#home article{
+    display: flex;
+    justify-content: center;
+}
+#home article div{
+    border-color: blue;
+    border-radius: 5%;
+    border-style: solid;
+    width: 15em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    margin:  5em ;
+}
+#home article img{
+    width: 5em;
+}
+#home article div #img-medico{
+    width: 100%; 
+}
+
+
+/* pagina cadastro do site */
+
+#cadastro form{
+    margin-top: 1em;
+    padding-left: 1em;
+}
+#cadastro div {
+    margin-bottom: 0.5em;
+}
+#cadastro input{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+#cadastro label{
+    margin-left: 1em;
+}
+#cadastro span{
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+    background-color: rgb(209, 196, 245);
+    padding: 0.1em;
+}
+#cadastro span:hover{
+    border: 1px solid #000000;
+}
+#cadastro svg{
+    margin: 0.5em; 
+}
+#cadastro tr{
+    border: 0.15em solid  rgb(1, 125, 197);
+    text-align: center;
+    
+}
+#cadastro th{
+    border: 0.15em solid  rgb(1, 125, 197);
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0%;
+}
+#cadastro .centro{
+    text-align: center;
+}
+#cadastro #menuEscolha{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+#cadastro #menuEscolha a{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+

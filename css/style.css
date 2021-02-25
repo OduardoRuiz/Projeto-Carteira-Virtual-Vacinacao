@@ -1,0 +1,334 @@
+
+ body{
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    background-color: rgb(230, 230, 245);
+
+}
+
+/* cabeçalho do site */
+
+header{
+    width: 100%;
+    height:auto;
+    background-color: rgb(1, 125, 197);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    color: rgb(255, 255, 255); 
+}
+header a:link{
+    text-decoration: none;
+}
+header a{
+    color: rgb(255, 255, 255);
+}
+#menu1,#menu2{
+   display: flex;
+   justify-content: center;
+}
+#menu1 nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-inline-start: 1em;
+    margin-bottom: 0;
+} 
+#menu1 nav ul li {
+    margin-top: 1.2em;
+    margin-left: 1em;
+    font-size: 1.3em;
+}   
+#menu2 nav ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+} 
+#menu2 nav ul li {
+    margin-right: 1em;
+    font-size: 1.3em;
+}   
+#menu1 img{
+    width: 5em;
+}
+
+/* rodape do site */
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(1, 125, 197);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    color: rgb(255, 255, 255);
+}
+footer img{
+    width: 4em;
+}
+footer #vacinao{
+    width: 2em;
+}
+footer #copy{
+    font-size: 0.8em;
+}
+
+
+/* pagina sobre do site */
+
+#sobre{
+    background-image: url('../imagens/Bio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    color: white; 
+    text-shadow: 3px 2px 5px rgb(0, 0, 0);
+}
+#sobre h2{
+    text-align: center;
+}
+#sobre #tudo{
+    display: flex;
+    justify-content: space-between;
+}
+#sobre img{
+    width: 15em;
+}
+#sobre p{
+    font-size: 1.3em;
+    text-align: center;
+    margin-right: 2em;
+    text-indent: -2em; 
+      
+}
+
+/* pagina login do site */
+#login {
+    padding-top:1em ;
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+#login div{
+    margin-top: 1em;
+}
+    
+
+/* pagina home/index do site */
+
+
+
+#home article{
+    display: flex;
+    justify-content: center;
+}
+#home article div{
+    border-radius: 5%;
+    width: 15em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    margin:  5em ;
+}
+#home article img{
+    width: 5em;
+}
+#home article div #img-medico{
+    width: 100%; 
+    border-radius: 5%;
+}
+#home article #img_vacinao{
+    border-radius: 5%;
+    background-color: white;
+}
+#home article div #img-medico1{
+    width: 100%; 
+    border-radius: 5%;
+    width: em;
+}
+#home .carousel-item{
+    text-align: center;
+}
+
+
+/* pagina cadastro do site */
+
+#cadastro form{
+    margin-top: 1em;
+    padding-left: 1em;
+}
+#cadastro div {
+    margin-bottom: 0.5em;
+}
+#cadastro input{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+#cadastro label{
+    margin-left: 1em;
+}
+#cadastro span{
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+    background-color: rgb(209, 196, 245);
+    padding: 0.1em;
+}
+#cadastro span:hover{
+    border: 1px solid #000000;
+}
+#cadastro svg{
+    margin: 0.5em; 
+}
+#cadastro .centro{
+    text-align: center;
+}
+#cadastro #menuEscolha{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+#cadastro #menuEscolha a{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#cadastro table{
+    text-align: center;
+}
+.table td, .table th {
+    padding: 0.2em;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+#cadastro #button{
+    text-align: center;
+
+}
+#cadastro #foto img{
+    border-radius: 5% ;
+
+}
+
+/* pagina noticia do site */
+
+#noticia{
+    background-image: url('../imagens/Bio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#noticia #topo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
+    
+}
+#noticia #topo2 div {
+    border: 1px solid #000000;
+    padding: 0.5em;
+    background-color: white;
+    border-radius: 0.5em;
+}
+#noticia #topo2 #p1 {
+    width: 80%;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    margin-left: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#noticia #topo2 #p2{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+#noticia #topo2 #p2 img{
+    border-radius: 0.5em;
+}
+
+
+/* pagina post/admin do site */
+
+#post {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+#post fieldset{
+    text-align: center;
+    margin-top: 1em;
+}
+#p2 {
+    text-align: center;
+    margin-top: 1em;
+    
+}
+
+/* pagina apagar post/admin do site */
+#post1{
+    text-align: center;
+
+}
+#post1 #topo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;  
+}
+#post1 #topo div, #topo1{
+   background-color: white;
+}
+#post1 #topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#post1 #topo #apagar{
+    width: 2em;
+}
+
+#post1 #p3{
+    width: 4em;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    border: 1px solid #000000;
+    padding: 1em;
+}
+#post1 #p4{
+    width: 6em;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    border: 1px solid #000000;
+    padding: 1em;
+}
+#post1 #p5{
+    width: 40em;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    border: 1px solid #000000;
+    padding: 1em;
+}
+#post1 #p6{
+    width: 20em;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    border: 1px solid #000000;
+    padding: 1em;
+}
+#post1 #p7{
+    width: 6em;
+    border: 1px solid #000000; 
+    padding: 1em;
+}
+
+
